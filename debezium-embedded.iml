@@ -6,11 +6,29 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/instantclient_18_3/ojdbc8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/debezium-examples-master/tutorial/debezium-with-oracle-jdbc/oracle_instantclient/xstreams.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: io.debezium:debezium-embedded:0.8.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.debezium:debezium-core:0.8.0.Final" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.4" level="project" />
@@ -65,23 +83,10 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.kafka:connect-file:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: io.debezium:debezium-connector-mysql:0.8.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.debezium:debezium-connector-oracle:0.8.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.debezium:debezium-ddl-parser:0.8.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.github.shyiko:mysql-binlog-connector-java:0.13.0" level="project" />
-    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.40" level="project" />
-    <orderEntry type="library" name="Maven: io.debezium:debezium-connector-oracle:0.8.0.CR1" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.7" level="project" />
-    <orderEntry type="library" name="Maven: io.debezium:debezium-connector-postgres:0.4.0" level="project" />
-    <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.0.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.6.1" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/ojdbc6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: junit:junit:4.13-beta-1" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
